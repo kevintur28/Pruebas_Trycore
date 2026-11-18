@@ -1,0 +1,109 @@
+{
+  "pieza_madre": {
+    "url": "https://trycore.com/guia-de-automatizacion-con-rpa/",
+    "titulo": "Guía de Automatización Robótica de Procesos RPA • Trycore",
+    "fuente": "url"
+  },
+  "indicadores": [
+    {
+      "nombre": "Palabras detectadas",
+      "valor": 3729,
+      "unidad": "palabras",
+      "estado": "ok"
+    },
+    {
+      "nombre": "Promedio de palabras por frase",
+      "valor": 20.3,
+      "unidad": "palabras",
+      "estado": "ok"
+    },
+    {
+      "nombre": "Listas detectadas",
+      "valor": 15,
+      "unidad": "listas",
+      "estado": "ok"
+    },
+    {
+      "nombre": "Cifras detectadas",
+      "valor": 15,
+      "unidad": "cifras",
+      "estado": "revision"
+    },
+    {
+      "nombre": "Secciones/líneas de contenido",
+      "valor": 146,
+      "unidad": "bloques",
+      "estado": "ok"
+    }
+  ],
+  "alertas": [
+    {
+      "severidad": "error",
+      "mensaje": "Término prohibido en la pieza madre: Llama"
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (02); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (11); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (29); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (05); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (00); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (4.0); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (100); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (19); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (3); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (1); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (2); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (3); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (4); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (5); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "revision",
+      "mensaje": "Cifra detectada (2022); comprueba que tenga fuente antes de reutilizarla."
+    },
+    {
+      "severidad": "info",
+      "mensaje": "La pieza madre no menciona productos vigentes; no se añadirá uno por inferencia."
+    }
+  ]
+}

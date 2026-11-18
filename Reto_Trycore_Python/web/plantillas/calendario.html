@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111216">
+    <title>Calendario de contenidos | Trycore</title>
+    <link rel="stylesheet" href="@@ASSET_BASE@@/css/calendario.css">
+    <script src="@@ASSET_BASE@@/js/calendario.js" defer></script>
+</head>
+<body>
+    <main class="page-shell">
+        <header class="page-header">
+            <div class="header-topline">
+                <div class="brandline">
+                    <span class="brand-mark" aria-hidden="true">T</span>
+                    <span>TRYCORE</span>
+                    <span class="brand-separator" aria-hidden="true">/</span>
+                    <span class="brand-caption">PLANEACIÓN DE CONTENIDOS</span>
+                </div>
+                <div class="header-actions">
+                    <label class="filter-control" for="format-filter">
+                        <span>Ver formato</span>
+                        <select id="format-filter" name="format-filter">
+                            <option value="todos">Todos los formatos</option>
+                            <option value="post_linkedin">Post LinkedIn</option>
+                            <option value="carrusel_linkedin">Carrusel LinkedIn</option>
+                            <option value="newsletter">Newsletter</option>
+                            <option value="guion_video_corto">Guion de video</option>
+                            <option value="infografia">Infografía</option>
+                            <option value="caso_de_exito">Caso de éxito</option>
+                        </select>
+                    </label>
+                    <button class="button button--print" id="print-calendar" type="button">
+                        Imprimir calendario
+                    </button>
+                </div>
+            </div>
+
+            <div class="header-copy">
+                <p class="eyebrow">ORGANIZACIÓN EDITORIAL</p>
+                <h1>Calendario de contenidos</h1>
+                <p class="subtitle">
+                    Del <strong>@@START_DATE@@</strong> al <strong>@@END_DATE@@</strong>
+                    <span class="subtitle-separator">·</span>
+                    Cada publicación requiere aprobación humana.
+                </p>
+            </div>
+
+            <div class="summary" aria-label="Resumen del calendario">
+                <div class="summary-item">
+                    <span class="summary-value">@@TOTAL@@</span>
+                    <span class="summary-label">En calendario</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-value">@@PENDING@@</span>
+                    <span class="summary-label">Pendientes de aprobación</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-value">@@PREVIOUS@@</span>
+                    <span class="summary-label">Registros previos</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-value">@@NOT_PLACED@@</span>
+                    <span class="summary-label">Sin ubicar</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="legend-panel" aria-label="Leyenda de formatos">
+            <div class="section-kicker">FORMATOS</div>
+            <div class="legend">@@LEGEND@@</div>
+        </section>
+
+        <section class="calendar-content" aria-label="Calendario semanal">
+            @@WEEKS@@
+        </section>
+
+        <div class="lower-panels">
+            <section class="detail-panel">
+                <div class="panel-heading">
+                    <span class="panel-marker panel-marker--warning" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">REVISIÓN DE CAPACIDAD</p>
+                        <h2>Piezas no ubicadas</h2>
+                    </div>
+                </div>
+                <ul class="detail-list">@@NOT_PLACED_LIST@@</ul>
+            </section>
+            <section class="detail-panel">
+                <div class="panel-heading">
+                    <span class="panel-marker" aria-hidden="true"></span>
+                    <div>
+                        <p class="section-kicker">VALIDACIÓN DE REGLAS</p>
+                        <h2>Conflictos</h2>
+                    </div>
+                </div>
+                <ul class="detail-list">@@CONFLICTS_LIST@@</ul>
+            </section>
+        </div>
+
+        <footer class="page-footer">
+            <span>TRYCORE <span class="footer-dot">·</span> CALENDARIO EDITORIAL</span>
+            <span>Generado automáticamente <span class="footer-dot">·</span> Revisión humana antes de publicar</span>
+        </footer>
+    </main>
+</body>
+</html>

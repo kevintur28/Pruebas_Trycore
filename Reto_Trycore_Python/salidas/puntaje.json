@@ -1,0 +1,102 @@
+{
+  "metodo": "Tasa de interacción histórica por formato, hora y tema. Se aplica suavizado con cinco observaciones equivalentes a la media global; puntaje = tasa estimada × 1000, limitado a 0–100.",
+  "modelo": {
+    "media_global": 0.04064345134173941,
+    "muestras": 60
+  },
+  "calidad_historial": {
+    "filas_originales": 63,
+    "filas_validas": 60,
+    "duplicados_omitidos": 3,
+    "filas_invalidas": 0
+  },
+  "piezas": [
+    {
+      "id": "carrusel_linkedin-1",
+      "fecha": "2026-12-03",
+      "hora": "08:30",
+      "formato": "carrusel_linkedin",
+      "tema": "rpa",
+      "titulo": "Ideas clave para entender Guía de Automatización Robótica de Procesos RPA • Trycore",
+      "estado": "pendiente_aprobacion",
+      "puntaje": 43,
+      "estimacion": {
+        "puntaje": 43,
+        "tasa_estimada": 0.0434,
+        "confianza": "media",
+        "factores": {
+          "formato": {
+            "muestras": 15,
+            "tasa_estimada": 0.04716
+          },
+          "hora": {
+            "muestras": 20,
+            "tasa_estimada": 0.04525
+          },
+          "tema": {
+            "muestras": 10,
+            "tasa_estimada": 0.04222
+          }
+        }
+      }
+    },
+    {
+      "id": "guion_video_corto-1",
+      "fecha": "2026-12-07",
+      "hora": "08:30",
+      "formato": "guion_video_corto",
+      "tema": "rpa",
+      "titulo": "¿Qué ideas de esta guía vale la pena revisar?",
+      "estado": "pendiente_aprobacion",
+      "puntaje": 42,
+      "estimacion": {
+        "puntaje": 42,
+        "tasa_estimada": 0.04193,
+        "confianza": "media",
+        "factores": {
+          "formato": {
+            "muestras": 9,
+            "tasa_estimada": 0.03982
+          },
+          "hora": {
+            "muestras": 20,
+            "tasa_estimada": 0.04451
+          },
+          "tema": {
+            "muestras": 10,
+            "tasa_estimada": 0.04148
+          }
+        }
+      }
+    },
+    {
+      "id": "post_linkedin-1",
+      "fecha": "2026-12-09",
+      "hora": "08:30",
+      "formato": "post_linkedin",
+      "tema": "rpa",
+      "titulo": "¿Qué deberías revisar sobre rpa?",
+      "estado": "pendiente_aprobacion",
+      "puntaje": 41,
+      "estimacion": {
+        "puntaje": 41,
+        "tasa_estimada": 0.0412,
+        "confianza": "media",
+        "factores": {
+          "formato": {
+            "muestras": 27,
+            "tasa_estimada": 0.03616
+          },
+          "hora": {
+            "muestras": 20,
+            "tasa_estimada": 0.04415
+          },
+          "tema": {
+            "muestras": 10,
+            "tasa_estimada": 0.04112
+          }
+        }
+      }
+    }
+  ]
+}

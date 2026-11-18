@@ -1,0 +1,147 @@
+{
+  "ventana": {
+    "variante": "A",
+    "inicio": "2026-11-30",
+    "fin": "2026-12-11",
+    "nota": "Programa las piezas derivadas dentro de esta ventana. El archivo calendario_ocupado.csv trae lo que ya está agendado."
+  },
+  "programadas": [
+    {
+      "id": "carrusel_linkedin-1",
+      "fecha": "2026-12-03",
+      "hora": "08:30",
+      "formato": "carrusel_linkedin",
+      "tema": "rpa",
+      "titulo": "Ideas clave para entender Guía de Automatización Robótica de Procesos RPA • Trycore",
+      "estado": "pendiente_aprobacion",
+      "puntaje": 43,
+      "estimacion": {
+        "puntaje": 43,
+        "tasa_estimada": 0.0434,
+        "confianza": "media",
+        "factores": {
+          "formato": {
+            "muestras": 15,
+            "tasa_estimada": 0.04716
+          },
+          "hora": {
+            "muestras": 20,
+            "tasa_estimada": 0.04525
+          },
+          "tema": {
+            "muestras": 10,
+            "tasa_estimada": 0.04222
+          }
+        }
+      }
+    },
+    {
+      "id": "guion_video_corto-1",
+      "fecha": "2026-12-07",
+      "hora": "08:30",
+      "formato": "guion_video_corto",
+      "tema": "rpa",
+      "titulo": "¿Qué ideas de esta guía vale la pena revisar?",
+      "estado": "pendiente_aprobacion",
+      "puntaje": 42,
+      "estimacion": {
+        "puntaje": 42,
+        "tasa_estimada": 0.04193,
+        "confianza": "media",
+        "factores": {
+          "formato": {
+            "muestras": 9,
+            "tasa_estimada": 0.03982
+          },
+          "hora": {
+            "muestras": 20,
+            "tasa_estimada": 0.04451
+          },
+          "tema": {
+            "muestras": 10,
+            "tasa_estimada": 0.04148
+          }
+        }
+      }
+    },
+    {
+      "id": "post_linkedin-1",
+      "fecha": "2026-12-09",
+      "hora": "08:30",
+      "formato": "post_linkedin",
+      "tema": "rpa",
+      "titulo": "¿Qué deberías revisar sobre rpa?",
+      "estado": "pendiente_aprobacion",
+      "puntaje": 41,
+      "estimacion": {
+        "puntaje": 41,
+        "tasa_estimada": 0.0412,
+        "confianza": "media",
+        "factores": {
+          "formato": {
+            "muestras": 27,
+            "tasa_estimada": 0.03616
+          },
+          "hora": {
+            "muestras": 20,
+            "tasa_estimada": 0.04415
+          },
+          "tema": {
+            "muestras": 10,
+            "tasa_estimada": 0.04112
+          }
+        }
+      }
+    }
+  ],
+  "no_ubicadas": [
+    {
+      "id": "newsletter-1",
+      "titulo": "newsletter",
+      "razon": "No existe una franja que cumpla capacidad, frecuencia y separación temática."
+    },
+    {
+      "id": "post_linkedin-2",
+      "titulo": "¿Qué deberías revisar sobre rpa?",
+      "razon": "No existe una franja que cumpla capacidad, frecuencia y separación temática."
+    }
+  ],
+  "ya_agendadas": [
+    {
+      "fecha": "2026-12-01",
+      "hora": "08:30",
+      "canal": "linkedin",
+      "formato": "post_linkedin",
+      "tema": "rpa",
+      "titulo": "Tres señales de que un proceso está listo para automatizarse",
+      "estado": "programada"
+    },
+    {
+      "fecha": "2026-12-03",
+      "hora": "11:00",
+      "canal": "linkedin",
+      "formato": "carrusel_linkedin",
+      "tema": "docfly",
+      "titulo": "Cómo se lee un documento difícil",
+      "estado": "programada"
+    },
+    {
+      "fecha": "2026-12-07",
+      "hora": "11:00",
+      "canal": "linkedin",
+      "formato": "post_linkedin",
+      "tema": "people_service",
+      "titulo": "Perfiles TI que más se piden este trimestre",
+      "estado": "programada"
+    },
+    {
+      "fecha": "2026-12-10",
+      "hora": "08:30",
+      "canal": "newsletter",
+      "formato": "newsletter",
+      "tema": "marca",
+      "titulo": "Novedades de Trycore",
+      "estado": "programada"
+    }
+  ]
+}
